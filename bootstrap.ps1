@@ -17,8 +17,8 @@ param (
 # constant variables
 $Logfile = "C:\temp\bootstrap.log"
 $TempPath = "C:\temp"
-$MainBootstrapScriptURL = "https://github.com/microsoft/MicroHack/raw/refs/heads/main/03-Azure/01-03-Infrastructure/05_Azure_VMware_Solution/Lab/scripts/bootstrap.ps1"
-$BootstrapScriptURL = "https://github.com/microsoft/MicroHack/raw/refs/heads/main/03-Azure/01-03-Infrastructure/05_Azure_VMware_Solution/Lab/scripts/bootstrap-nestedlabs.ps1"
+$MainBootstrapScriptURL = "https://github.com/krisloimaala/microhackavs/raw/refs/heads/main/bootstrap.ps1"
+$BootstrapScriptURL = "https://github.com/krisloimaala/microhackavs/raw/refs/heads/main/bootstrap-nestedlabs.ps1"
 $PackageURL = "https://csuavsmicrohack.blob.core.windows.net/csuavsmicrohack/avs-embedded-labs-auto.zip"
 $HcxPackageURL = "https://csuavsmicrohack.blob.core.windows.net/csuavsmicrohack/VMware-HCX-Connector-4.6.2.0-21779229.ova"
 
