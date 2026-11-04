@@ -1,0 +1,26 @@
+{
+  "subscriptionId": "40e37a57-a8d4-4000-841d-a83bd93ff954",
+  "resourceGroup": "akt-AVS-PrivateCloud",
+  "privateCloud": "akt-AVS-SDDC",
+  "isStatic": true,
+  "staticIpNetworkDetails": {
+    "networkForApplianceVM": "arc-avs-segment",
+    "networkCIDRForApplianceVM": "10.211.207.1/28"
+  },
+  "applianceCredentials": {
+    "username": "elisaadmin",
+    "password": "Salaneuvos!2025Salaneuvos!2025"
+  },
+  "applianceProxyDetails": {
+    "http": "",
+    "https": "",
+    "noProxy": "",
+    "certificateFilePath": ""
+  },
+  "managementProxyDetails": {
+    "http": "",
+    "https": "",
+    "noProxy": "",
+    "certificateFilePath": ""
+  }
+}
